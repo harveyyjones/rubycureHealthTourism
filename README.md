@@ -1,16 +1,9 @@
-# rubycure
+# Rubycure Health Tourism
+# Rubycure is a market place that you can find clinics and doctors and contact them to have treatment.
 
-A new Flutter project.
+About this repo
+I've used Firebase in this App. You can create a clinic profile and share your experiences in your major, contact with potential customers and share images about your service. If you are a customer who wants to have treatment abroad, you can find clinics and contact them.
 
-## Getting Started
+Currently things that you can do in this app are:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1-) You can register and login. 2-) You can determine in the steppers if you are clinic owner or client to be redirected to the right page. 3-) You can create a profile, and have a profile screen and other informations including your name, your title, location of your clinic, your biography. You change them later whenever you want. 4-) You can share contents. 5-) You can chat with the doctors.
