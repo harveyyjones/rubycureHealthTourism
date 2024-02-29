@@ -1,0 +1,34 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Firebase plugin
+        classpath 'com.google.gms:google-services:4.4.1' // Firebase Gradle plugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22"
+
+    }
+}
+
+ // ext {
+    // kotlin_version = '1.9.22' // İstediğiniz Kotlin sürümünü buraya yazın
+    // }
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

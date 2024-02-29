@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405112698216",
+    "project_id": "rubycure-db970",
+    "storage_bucket": "rubycure-db970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405112698216:android:dc6ac63e009dd49482d2dd",
+        "android_client_info": {
+          "package_name": "com.rubycure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOFCClrhrqLflthWhyEh7dk13hXg0e3E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
