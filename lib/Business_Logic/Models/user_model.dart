@@ -7,7 +7,8 @@ class UserModel {
   String? name;
   String? majorInfo;
 
-  String profilePhotoURL; // Bunun veri tipini değiştirebilirim duruma göre.
+  late String profilePhotoURL =
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"; // Bunun veri tipini değiştirebilirim duruma göre.
   var updatedAt;
   String? biography;
   String? clinicLocation;
@@ -22,7 +23,8 @@ class UserModel {
       this.eMail,
       this.majorInfo,
       this.clinicLocation,
-      required this.profilePhotoURL,
+      this.profilePhotoURL =
+          "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
       this.biography,
       this.clinicName,
       var this.gender,

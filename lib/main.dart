@@ -5,8 +5,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:oxford_travel_app/screens_for_everyone/landing_screen.dart';
-import 'package:oxford_travel_app/screens_for_everyone/login_page.dart';
-import 'package:oxford_travel_app/screens_for_everyone/register_%20page.dart';
 import 'package:oxford_travel_app/steppers_for_clients.dart';
 
 import 'home_page.dart';
@@ -19,7 +17,8 @@ Future<void> main() async {
           apiKey: "AIzaSyAOFCClrhrqLflthWhyEh7dk13hXg0e3E8",
           appId: "1:405112698216:android:dc6ac63e009dd49482d2dd",
           messagingSenderId: "405112698216",
-          projectId: "rubycure-db970"));
+          projectId: "rubycure-db970",
+          storageBucket: "gs://rubycure-db970.appspot.com"));
   runApp(MyApp());
 }
 

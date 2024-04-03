@@ -148,7 +148,8 @@ class FirestoreDatabaseService {
         biography: biography ?? "",
         eMail: currentUser?.email ?? "",
         majorInfo: majorInfo ?? "",
-        profilePhotoURL: photoUrl,
+        profilePhotoURL: photoUrl ??
+            "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
         name: name ?? "",
         clinicLocation: clinicLocation ?? "",
         userId: currentUser?.uid ?? "",
@@ -285,7 +286,7 @@ class FirestoreDatabaseService {
     try {
       uploadImageToDatabase() async {
         UploadTask? uploadTask;
-        Reference ref = FirebaseStorage.instance
+        Reference ref = await FirebaseStorage.instance
             .ref()
             .child("users")
             .child(currentUser!.uid)
