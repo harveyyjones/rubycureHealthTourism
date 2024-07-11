@@ -1,16 +1,10 @@
-# rubycure
 
-A new Flutter project.
+## Rubycure 
 
-## Getting Started
+Rubycure helps you find the doctors abroad and contact them with one click.
+You can see their profile and details in their profile screen or if you are a doctor you can create your own account and start getting more clients abroad.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Technical Details.
+In this project I've used Dart language with Flutter framework and used Firebase Firestore as a backend solution.
+When it comes to UI/UX I've used Adobe XD to design.
